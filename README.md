@@ -16,7 +16,7 @@
 /info/orders            Get information about your orders
 /info/order_detail      Get list of transactions resulting from an order
 /trade/place            Place an order
-/trade/cancel           Cancel an order
+/trade/cancel          Cancel an order
 ```
 
 # How it works
@@ -32,4 +32,34 @@ function callback(ticker_data) {
 
 }
 vos.Public.ticker(currency_pair, callback);
+```
+
+
+## Accessing Endpoints via Code
+All endpoints are in the format `vos[Public|Info|Trade].endpoint`. 
+
+```javascript
+vos.Public = {
+    ticker: function(options, callback),
+    orderbook: function(options, callback)
+};
+
+vos.Info = {
+   currency: function(options, callback),
+   account: function(options, callback),
+   balance: function(options, callback),
+   quote: function(options, callback),
+   orderbook: function(options, callback),
+   orders: function(options, callback),
+   order_detail: function(options, callback),
+   wallet: {
+        address: function(options, callback),
+        history: function(options, callback)
+   }
+};
+
+vos.Trade = {
+    place: function(options, callback),
+    cancel: function(options, callback)
+};
 ```
