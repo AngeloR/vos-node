@@ -23,6 +23,12 @@
 /trade/cancel          Cancel an order
 ```
 
+# API Keys/Documentation
+You need to generate your own API key/secret combination on the Vault of Satoshi 
+site. 
+
+[https://www.vaultofsatoshi.com/api](Vault of Satoshi)
+
 # How it works
 ```javascript
 var vos = require('vos-api')('key','secret');
