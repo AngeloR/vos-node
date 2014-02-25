@@ -1,5 +1,5 @@
 # Vault of Satoshi API
-[![NPM](https://nodei.co/npm/request.png)](https://nodei.co/npm/vos-api/)
+[![NPM](https://nodei.co/npm/vos-api.png)](https://nodei.co/npm/vos-api/)
 
 # Endpoint Support
 ```
