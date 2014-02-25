@@ -5,6 +5,9 @@
 # Install
 `npm install vos-api`
 
+# No Affiliation with VOS
+`This is an UNOFFICIAL Vault of Satoshi client library!`
+
 # Endpoint Support
 ```
 /public/ticker          Get trading statistics
