@@ -36,7 +36,6 @@ Settings.get = function(endpoint, data, cb, settings) {
     var options = Settings.set_options(endpoint, data, settings);
     request(options, function(e, r, b) {
         if(!e) {
-            console.log(b);
             if(b.status === 'error') {
                 console.log(options);
             }
