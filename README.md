@@ -1,6 +1,10 @@
 # Vault of Satoshi API
 [![NPM](https://nodei.co/npm/vos-api.png)](https://nodei.co/npm/vos-api/)
 
+
+# Install
+`npm install vos-api`
+
 # Endpoint Support
 ```
 /public/ticker          Get trading statistics
