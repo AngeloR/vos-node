@@ -1,0 +1,26 @@
+{
+    "name": "vos-api",
+    "version": "0.1.0",
+    "author": "Angelo R <xangelo@gmail.com>",
+    "description": "Module for accessing the vault of satoshi api",
+    "tags": [
+        "bitcoin",
+        "dogecoin",
+        "vos",
+        "vault of satoshi"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/angelor/vos-node.git"
+    },
+    "bugs": {
+        "url": "https://github.com/angelor/vos-node/issues"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "request": "*",
+        "underscore": "*",
+        "time": "*"
+    }
+}
