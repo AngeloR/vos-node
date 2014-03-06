@@ -30,7 +30,7 @@
 You need to generate your own API key/secret combination on the Vault of Satoshi 
 site. 
 
-[https://www.vaultofsatoshi.com/api](Vault of Satoshi)
+[https://www.vaultofsatoshi.com/api](https://www.vaultofsatoshi.com/api)
 
 # How it works
 ```javascript
